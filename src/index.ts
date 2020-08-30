@@ -10,17 +10,11 @@ editor.create()
 
 let btnHtml: HTMLElement = document.getElementById('html') as HTMLElement
 btnHtml.addEventListener('click',function(){
-    Promise.resolve().then(()=>{
-        alert(editor.txt.html())
-    })
+    alert(editor.txt.html())
 })
-btnHtml.click
 
 let btnText: HTMLElement = document.getElementById('text') as HTMLElement
 btnText.addEventListener('click',function(){
-    Promise.resolve().then(()=>{
-        alert(editor.txt.text())
-    })
+    alert(editor.txt.text())
 })
-btnText.click
 

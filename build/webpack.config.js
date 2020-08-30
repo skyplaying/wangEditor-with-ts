@@ -4,9 +4,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
  
 module.exports = {
-    entry: "./src/index.ts", // 入口文件，在src目录下创建
+    entry: './src/index.ts', // 入口文件，在src目录下创建
     output: { // 指定项目编译完的输出文件
-        filename: "main.js"
+        filename: 'main.js'
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js']
