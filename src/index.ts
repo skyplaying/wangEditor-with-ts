@@ -1,6 +1,6 @@
-import wangeditor from '@wangeditor-team/we-next'
+import E from 'wangeditor'
 
-const editor = new wangeditor('#editor')
+const editor = new E('#editor')
 editor.config.onchange = (newHtml: any) => {
     let content: HTMLElement = document.getElementById('content') as HTMLElement
     content.innerHTML = newHtml
