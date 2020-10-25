@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/wangeditor-team/wangEditor-with-ts#readme",
   "dependencies": {
-    "wangeditor": "^4.0.0"
+    "wangeditor": "^4.0.6"
   }
 }
