@@ -1,4 +1,8 @@
 import E from 'wangeditor'
+// import { DropListConf, DropListItem, PanelTabConf, PanelConf, TooltipConfItemType } from 'wangeditor'
+
+const { $, BtnMenu, DropListMenu, PanelMenu, DropList, Panel, Tooltip } = E
+console.log($, BtnMenu, DropListMenu, PanelMenu, DropList, Panel, Tooltip)
 
 const editor = new E('#editor')
 editor.config.onchange = (newHtml: any) => {
